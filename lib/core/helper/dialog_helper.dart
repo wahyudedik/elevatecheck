@@ -1,4 +1,4 @@
-import 'package:dewakoding_presensi/core/helper/global_helper.dart';
+import 'package:elevatecheck/core/helper/global_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -18,7 +18,7 @@ class DialogHelper {
       builder: (context) {
         return SafeArea(
             child: SingleChildScrollView(
-          padding: EdgeInsets.all(20),
+          padding: const EdgeInsets.all(20),
           child: Column(
             children: [
               Row(
@@ -30,7 +30,7 @@ class DialogHelper {
                   ),
                 ],
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               content
